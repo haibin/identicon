@@ -1,0 +1,9 @@
+identicon:
+  build: .
+  ports:
+    - "5000:5000"
+  links:
+    - dnmonster
+
+dnmonster:
+  image: amouat/dnmonster
